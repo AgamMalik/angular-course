@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&family=Vollkorn+SC&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Merriweather&family=Montserrat:wght@100&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&family=Vollkorn+SC&display=swap');
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    padding: 0 10px;
+    
+    color: #28282B;
+}

@@ -1,0 +1,10 @@
+> custom property binding
+	-between two components having parent child relationship
+	-binds the custom property of component class in view template of parent class.
+	-use @input decorator in child component and define poperty there
+	- use that property in parent component as attribute in component selector of child class.
+	- doing that we can assign any value of parent class in component selector
+	-in this way data will flow from parent component to child component.
+
+> custom event binding
+	-

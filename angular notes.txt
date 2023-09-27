@@ -7,5 +7,9 @@
 	-in this way data will flow from parent component to child component...
 
 > custom event binding
-	-using *ngModel
+	-using *ngModel for two way binding
 	-send data from child component to parent component
+
+> services is basically a reusable component.
+  api call is made in services .
+  always used on components.

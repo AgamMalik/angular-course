@@ -27,8 +27,25 @@
 > viewProvider
 .	- to call a class at component level.
 .	-this class wont load until its object is created.
-.	-this class wont get used/load until the component is used.(kind of merit)...
+.	-this class wont get used/load until the component is used.(kind of merit)
 .
 .
 > if we want to call/use a class at module level ..then provide name in app.module.ts>providers.
 	--this class will automatically load when module gets loaded.(kind of demerit, make app slow)
+
+
+
+> encapsulation
+	-to use parent css in child or vice versa
+	-a metadata of component
+
+
+>send data from child to parent
+	-call a method in child.component.html file to get the data/value.
+		-then
+	-define this method in child.component.ts and create a custom event using EventEmitter class.
+	-emit the value uisng that custom event in method.
+		-then
+	-recieve this event in parent component..this event has value
+	-to get that value we called a method from this event using ($event) as value for this method....(customevent)= "getvalue($event)"
+	-now define this method in parent.compinent.ts and get the value in a variable and use it as ypu want.

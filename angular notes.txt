@@ -27,7 +27,7 @@
 > viewProvider
 .	- to call a class at component level.
 .	-this class wont load until its object is created.
-.	-this class wont get used/load until the component is used.(kind of merit)
+.	-this class wont get used/load until the component is used.(kind of merit)...
 .
 .
 > if we want to call/use a class at module level ..then provide name in app.module.ts>providers.
